@@ -10,5 +10,5 @@ Meteorson is <a href="https://github.com/nano5th/meteorson">available on GitHub<
 javac -cp $METEOR/meteor-1.5.jar src/ErrorCategorizer.java
  
 
-# Dependencies}
+# Dependencies
 Meteorson relies on three external packages: the Perl interface to Stanford's CoreNLP (<a href="http://search.cpan.org/~kal/Lingua-StanfordCoreNLP-0.10/lib/Lingua/StanfordCoreNLP.pm">Lingua::StanfordCoreNLP</a>), <a href="http://www.cs.cmu.edu/~alavie/METEOR/">Meteor</a>, and <a href="https://github.com/cidermole/hjerson">Hjerson</a>. Hjerson and METEOR can be installed anywhere on the system as long as environment variables $METEOR and $HJERSON are set. As packaged, tokenization and lemmatization are performed by CoreNLP via Perl scripts, but another tokenizer and/or lemmatizer can be substituted by editing the pipeline script.
